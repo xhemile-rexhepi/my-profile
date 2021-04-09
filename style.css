@@ -1,0 +1,124 @@
+/* Colours and fonts */
+body {
+	background-color:  #F6F3EA; 
+	font-family: 'Poppins', sans-serif;
+	color: #3F3D36
+	text-justify: inter-word
+		}
+
+h1 {
+	font-family: 'Sorts Mill Goudy', serif;
+	font-style: italic;
+    color: #88867E;
+    font-weight: 100;
+    letter-spacing: 6px;
+    font-size: 55px;
+    text-transform: lowercase;
+}
+
+h2, h3 {
+	font-family: 'Sorts Mill Goudy', serif;
+	color: #6F6D65
+}
+
+
+ a{ text-decoration: none;
+ }
+
+ a:hover {
+ 	color: black
+ }
+
+/* Custom design with class */
+
+.container {
+	width: 700px
+	margin: 40px auto;
+}
+
+.card-white {
+	background: #fcfbf7;
+    padding: 60px;
+    margin: 60px auto;
+    border-radius: 4px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 600px 
+ }
+@media (max-width: 960px) {
+	.container {width: 700px;}
+	.card-white {width: 700px;}
+}
+
+@media (max-width: 720px) {
+	.container {width: 500px}
+	.card-white {width: 500px}
+}
+
+@media (max-width: 540px) {
+	.container {width: 300px}
+	.card-white {width: 300px}
+	.list-inline {display: inline-flex;  }
+}
+
+ .image-circle { 
+ border-radius: 50% 
+}
+
+.btn-brown {
+	background-color: #88867E;
+	color: #F6F3EA; 
+	padding: 15px 20px;
+	border-radius: 4px; 
+}
+
+.btn-brown:hover {
+	background-color: #DAD7CE;
+	color: #3F3D36;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;	
+}
+
+.list-inline li {
+	display: inline;
+	padding: 20px;
+}
+
+
+/* Custom design with id */
+
+#title {
+	text-align: center;
+}
+
+#introduction p {
+	margin-bottom: 40px
+}
+
+ #socials {
+ 	text-align: center;
+ 	margin: 40px auto;
+ 	padding: 40px
+ }
+
+ #socials i {
+ 	font-size: 40px
+ }
+
+ #socials i {
+ 	color: #88867E
+ }
+
+ #socials i:hover {
+ 	color: #DAD7CE
+ }
+
+ #profile {
+ 	width: 300px
+ }
+
+
+
